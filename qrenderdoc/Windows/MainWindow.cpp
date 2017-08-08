@@ -654,7 +654,7 @@ bool MainWindow::PromptCloseLog()
     QMessageBox::StandardButton res = QMessageBox::No;
 
     // unless we've saved the log, prompt to save
-    if(!m_SavedTempLog)
+    if(!m_SavedTempLog && false)
       res = RDDialog::question(NULL, tr("Unsaved log"), tr("Save this logfile?"),
                                QMessageBox::Yes | QMessageBox::No | QMessageBox::Cancel);
 

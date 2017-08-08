@@ -580,7 +580,7 @@ bool LiveCapture::checkAllowClose()
 {
   m_IgnoreThreadClosed = true;
 
-  bool suppressRemoteWarning = false;
+  bool suppressRemoteWarning = true;
 
   for(int i = 0; i < ui->captures->count(); i++)
   {
