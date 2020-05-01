@@ -9,6 +9,8 @@ Release32/
 Release64/
 build/
 build-*/
+cmake-build-*/
+.idea
 /dist/
 /package/
 util/buildscripts/support
